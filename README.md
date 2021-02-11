@@ -82,7 +82,7 @@ Example HAL document with a form
         }
       },
       "method":"POST",
-      "contentType":"application/hal+json",
+      "contentType":"application/json",
       "schema":{
         "title":"A registration form",
         "description":"A simple form example.",
@@ -193,7 +193,7 @@ For example, this form
       "templated":true
     }
   },
-  "contentType":"application/x-www-form-urlencoded",
+  "contentType":"application/json",
   "method":"GET",
   "schema":{
     "properties":{
