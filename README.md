@@ -5,6 +5,7 @@
 
 ## Description
 This specification defines an extension to the [HAL json format](https://tools.ietf.org/html/draft-kelly-json-hal-08) to improve the evolvability of HAL based APIs.
+This specification is based of the work done by [Dwolla/hal-forms](https://github.com/Dwolla/hal-forms) and [# vnd.error](https://github.com/blongden/vnd.error).
 
 ## Compliance
 
@@ -257,6 +258,7 @@ Error responses must be valid [# vnd.error](https://github.com/blongden/vnd.erro
 
 [link object]: https://tools.ietf.org/html/draft-kelly-json-hal-08#section-5
 [link object]: https://json-schema.org/draft/2019-09/json-schema-core.html
+[link object]: https://github.com/blongden/vnd.error
 [RFC 3966 telephone URIs]: https://tools.ietf.org/html/rfc3966
 [RFC 6068 mailto URIs]: https://tools.ietf.org/html/rfc6068
 [ISO 8601 encoded date time]: https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations
